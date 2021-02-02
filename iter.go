@@ -3,7 +3,7 @@ package bow
 import (
 	"runtime"
 
-	"github.com/dgraph-io/badger/v2"
+	"github.com/dgraph-io/badger/v3"
 )
 
 type Iter struct {

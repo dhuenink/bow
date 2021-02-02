@@ -7,8 +7,8 @@ import (
 	"encoding/base64"
 	"fmt"
 
+	"github.com/dhuenink/bow/codec"
 	"github.com/tinylib/msgp/msgp"
-	"github.com/zippoxer/bow/codec"
 )
 
 //go:generate msgp -unexported
